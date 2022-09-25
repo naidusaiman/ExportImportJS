@@ -7,3 +7,4 @@ class Shape {
     console.log("Shape Area Calculated"); 
   }
 }
+module.exports = Circle;
