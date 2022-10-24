@@ -1,7 +1,9 @@
-import Shape require ('');
+var Shape = require('./shape.js');
 class Circle extends Shape {
- @override
-  calculateArea(){
-   console.log("Circle Area Drawn"); 
-  }
+ constructor(color) {
+  super();
+ }
+ calculateArea() {
+ }
 }
+module.exports = Circle;
