@@ -1,10 +1,11 @@
 class Shape {
-  var color = red;
+  constructor() {
+    this.color = "green";
+  }
   drawShape() {
-    console.log("Shape Drawn"); 
   }
   calculateArea() {
-    console.log("Shape Area Calculated"); 
   }
 }
-module.exports = Circle;
+
+module.exports = Shape;
